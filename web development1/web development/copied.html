@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student GPA Table</title>
+    <style>
+        /* General Table Styling */
+        table {
+            width: 60%;
+            border-collapse: collapse;
+            margin: 30px auto;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            text-align: center;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Table Header */
+        th {
+            background-color: #228B22; /* Green Header */
+            color: white;
+            padding: 12px;
+            border-radius: 5px;
+        }
+
+        /* Table Cells */
+        td {
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+
+        /* Alternate Row Color */
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        /* Centered Heading */
+        h2 {
+            text-align: center;
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Student GPA Table</h2>
+
+    <table>
+        <!-- Empty heading row -->
+        <tr>
+            <th colspan="4">CE*</th>
+        </tr>
+
+        <!-- CE1 Row -->
+        <tr>
+            <td rowspan="2"><strong>CE1</strong></td>
+            <td>A (Math) - 3.8</td>
+            <td>B (Science) - 3.6</td>
+            <td>C (English) - 3.9</td>
+        </tr>
+        <tr>
+            <td>D (History) - 3.5</td>
+            <td>E (Physics) - 3.7</td>
+            <td>F (Chemistry) - 3.6</td>
+        </tr>
+
+        <!-- CE2 Row -->
+        <tr>
+            <td rowspan="2"><strong>CE2</strong></td>
+            <td>G (Math) - 3.9</td>
+            <td>H (Science) - 3.8</td>
+            <td>I (English) - 4.0</td>
+        </tr>
+        <tr>
+            <td>J (History) - 3.4</td>
+            <td>K (Physics) - 3.8</td>
+            <td>L (Chemistry) - 3.7</td>
+        </tr>
+    </table>
+
+</body>
+</html>

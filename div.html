@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Colored Blocks Layout</title>
+  <style>
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      width: 300px;
+      margin: 50px auto;
+    }
+    .block {
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+      border-radius: 8px;
+    }
+    .block1 { background-color: #ff6666; } /* Red */
+    .block2 { background-color: #66b3ff; } /* Blue */
+    .block3 { background-color: #99ff99; } /* Green */
+    .block4 { background-color: #ffcc99; } /* Orange */
+    
+    /* Push second row blocks a bit downward */
+    .block3, .block4 {
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="block block1"></div>
+  <div class="block block2"></div>
+  <div class="block block3"></div>
+  <div class="block block4"></div>
+</div>
+
+</body>
+</html>
