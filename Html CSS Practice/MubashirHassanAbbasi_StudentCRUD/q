@@ -1,0 +1,49 @@
+Part(A) practice developing web application using MS visual studio.Utilize MS  sql server for effective database managemnet .implement CRUD operations to build functional enterprise systems
+scenario :
+yuoou are hored as a junior web developer to build a small student record managment system . the system should allow an admin to create , read , update and delete studnt information using web interface 
+objective :
+develop a full stack web application with the following features 
+1: frot end design 
+. create a html form to add anew student record with field.
+.. Name
+.. email
+.. course
+2: bootstrap
+.. use bootstrap to make the form and tablee responsive and presentable 
+.. add a navbar titled :styudent record system and footer with name (Abubakkar)
+3:css
+.. create a custom css file to style table border , button nad background colours
+4: javascript
+.validate the form 
+..no filed should be left empty
+.. email should contain @ and a valid domain
+
+Part(B) practice developing back-end functionality using php and database integration
+
+a. database
+   . create a database named student_db.
+   . create a table students with fields:
+
+         .id(int,auto_increment,primary key)
+         .name(VARCHAR)
+         .email(VARCHAR)
+         .course(VARCHAR)
+         .grade(VARCHAR)
+b. create (insert data)
+    . when the form is submitted, php should insert the data into the database
+   
+
+   read (Display dtaa)
+    . when the form, display all student records in a bootstrap-styled table
+    . each record should have edit and delete buttons
+
+   update (edit record)
+
+    . when the user clicks "Edit", populate the form with existing data.
+    . update the record in the database upon submission.
+   
+   delete(remove record)
+    
+    . when the user clicks "Delete", confirm via javascript
+    . if confirmed, delete the student record from the database
+
